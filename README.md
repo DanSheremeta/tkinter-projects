@@ -1,14 +1,11 @@
 # **tkinter-projects**
 ---
-## 1. Currency-converter
-### Setup:
+## Setup:
 The first thing to do is to clone the repository:
 ```shell
 $ git clone https://github.com/DanSheremeta/tkinter-projects.git
-$ cd currency-converter
 ```
-Create a virtual environment to install dependencies 
-in and activate it:
+Create a virtual environment to install dependencies and activate it:
 ```shell
 $ python -m venv env
 $ env\Scripts\activate
@@ -22,8 +19,13 @@ This indicates that this terminal session
 operates in a virtual environment set up 
 by `env`.
 
-Once `pip` has finished downloading the dependencies:
+Once `pip` has finished downloading the dependencies you can use one of the programs
+---
+Then change directory and run program:
+## 1. Currency-converter
+
 ```shell
+$ cd currency-converter 
 (env)$ python main.py 
 ```
 Then you will see the interface of program:
@@ -36,3 +38,24 @@ Then you will see the interface of program:
 3. Push the button ***Convert***
 ---
 ## 2. Str-counter-replacer
+
+### Setup:
+Then change directory and run program:
+```shell
+$ cd str-counter-replacer
+(env)$ python main.py
+```
+Then you will see the interface of program:
+
+![зображення](https://user-images.githubusercontent.com/49586845/213775396-ebbcc1db-1c6c-4fd7-89a6-b46e9baafe47.png)
+
+### How to use the program:
+1. Write some text in the main text field
+2. If you want to count strings in this text:
+   - Write string in the text field near the button ***Count***
+   - Push the button ***Count***
+3. If you want to replace one string for another in this text:
+   - Write string in the text field near the button ***Replace***
+   - Push the button ***Replace***
+
+
